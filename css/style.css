@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #a3c3ac29;
+    padding: 14px 0px;
+}
+.container{
+    display : flex;
+    justify-content : start;
+    align-items : center;
+    flex-direction : row;
+    padding : 0 60px 0 60px ;
+}
+.logo{
+	flex-basis : 50%;
+}
+.logo img{}
+nav{
+	display : flex;
+	align-items : center;
+	justify-content :flex-end;
+	flex-direction : row;
+	flex-basis : 50%;
+}
+nav ul{display: flex;justify-content: flex-end;margin: 0;padding: 0;}
+nav ul li {
+ list-style: none;
+}
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 16px;
+    display: block;
+}
+section{
+    padding-top: 290px;
+    padding-bottom: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: top;
+    align-items: center;
+    flex-direction: row;
+    }
+
+.section_01{ background-image: url(../images/bag.jpg);
+    
+}
+.section_02{ background-image: url(../images/girl.jpg);}
+.section_03{ background-image: url(../images/watch.jpg);}
+.section_04{ background-image: url(../images/pet.jpg);}
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-width: 440px;
+    border-radius: 4px;
+    box-shadow: 2px 4px 25px #000000db;
+    margin-left: 46px;
+    }
